@@ -19,9 +19,16 @@ namespace Calculator
 
         private void btnCong_Click(object sender, EventArgs e)
         {
-            int ketqua;
+            /*int ketqua;
             ketqua = Int32.Parse(txtSoA.Text) + Int32.Parse(txtSoB.Text);
             txtKetQua.Text = ketqua.ToString();
+            MessageBox.Show("Cong");*/
+            int a, b, kq;
+            a = int.Parse(txtSoA.Text);
+            b = int.Parse(txtSoB.Text);
+            kq = a + b;
+            txtKetQua.Text = kq.ToString();
+
         }
     }
 }
