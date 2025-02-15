@@ -23,11 +23,11 @@ namespace Calculator
             ketqua = Int32.Parse(txtSoA.Text) + Int32.Parse(txtSoB.Text);
             txtKetQua.Text = ketqua.ToString();
             MessageBox.Show("Cong");*/
-            int a, b, kq;
+            /*int a, b, kq;
             a = int.Parse(txtSoA.Text);
             b = int.Parse(txtSoB.Text);
             kq = a + b;
-            txtKetQua.Text = kq.ToString();
+            txtKetQua.Text = kq.ToString();*/
 
         }
     }
